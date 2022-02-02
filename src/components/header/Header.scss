@@ -1,0 +1,35 @@
+@import '../../colors';
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: $green;
+  height: 80px;
+}
+
+.titles-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: bold;
+}
+
+.header-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.header-sub-title {
+  font-size: 18px;
+}
+
+.nav-menu-wrapper {
+  margin-left: auto;
+}
+
+.nav-menu-item {
+  margin-left: 12px;
+  color: white;
+  text-decoration: none;
+}

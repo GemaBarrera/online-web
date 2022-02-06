@@ -1,1 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@200&display=swap');
 @import './components/header/Header.scss';
+@import './components/footer/Footer.scss';
+@import './pages/HomePage';
+@import './pages/ContactPage';
+@import './components/header/HamburgerMenu.scss';
+@import './components/header/DropdownMenu.scss';
+@import './colors';
+@import './components/goback/GoBack.scss';
+
+
+p, ul, h3, a {
+  color: $fontbase;
+  font-weight: 600;
+}
+
+h1{
+  font-size: 2em;
+  color: $green;
+};
+
+h2 {
+  font-size: 26px;
+  color: $orange;
+}
+
+.sub-sub-title {
+  color: $yellow;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 800;
+  background-color: $green;
+  padding: 10px;
+}
+
+.page-content {
+  padding: 60px;
+  font-family: 'Source Serif 4', sans-serif;
+  min-height: 60vh;
+
+  @media (max-width: 600px) {
+    padding: 20px;
+  }
+}

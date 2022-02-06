@@ -21,7 +21,7 @@ const availableRoutes = [
 ];
 
 const NoMatch = () => {
-  return <p>404</p>
+  return <p>ERROR 404 - Página no encontrada</p>
 };
 
 const routes = () => {

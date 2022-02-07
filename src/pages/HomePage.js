@@ -10,16 +10,14 @@ const HomePage = () => {
           <h3>¿Qué aprenderás?</h3>
           <ul>
             <li>Qué es y cómo funciona la WEB</li>
-            <li>Maquetación (HTML / CSS)</li>
-            <li>Acercamiento al lenguaje de la web: JavaScript</li>
-            <li>Lenguaje de Marcado Markdown</li>
-            <li>Herramientas básicas para la programación</li>
-            <li>Básicos de Usabilidad y Experiencia de Usuario (UX)</li>
-            <li>Ética, privacidad y uso responsable</li>
+            <li>Cómo se crea: Maquetación (HTML / CSS) y <span className="bold">Programación en el popular lenguaje JavaScript</span></li>
+            <li>Con qué se hace: Herramientas básicas para la programación</li>
+            <li>Por qué es como es: Usabilidad y Experiencia de Usuario (UX)</li>
+            <li>Cómo se debe usar: Ética, privacidad y uso responsable</li>
           </ul>
         </div>
         <div className="image-home-wrapper">
-          <div className="img-wrapper" style={{ backgroundImage: "url(/images/home-img.png)"}} />
+          <div className="img-wrapper" style={{ backgroundImage: "url(/images/home-img.png)" }} />
           <div className="meeting-link">
             <p>La sesión informativa para padres será el día 18/02/2022 a las 18.30h ¡No te la pierdas!</p>
             <a

@@ -1,7 +1,7 @@
-import { BrowserRouter as Router } from 'react-router-dom';
-import Paths from './routes';
-import './App.scss';
-import Layout from './components/Layout';
+import { BrowserRouter as Router } from "react-router-dom";
+import "./App.scss";
+import Layout from "./components/Layout";
+import Paths from "./routes";
 
 function App() {
   return (

@@ -1,6 +1,6 @@
-import LinkedinIcon from '@material-ui/icons/LinkedIn';
-import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
-import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+import EmailOutlinedIcon from "@material-ui/icons/EmailOutlined";
+import LinkedinIcon from "@material-ui/icons/LinkedIn";
+import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 
 const Footer = () => {
   return (
@@ -33,7 +33,9 @@ const Footer = () => {
             <a href="mailto:gbarrerafront@correo.com">
               <EmailOutlinedIcon />
             </a>
-            <a href="mailto:gbarrerafront@correo.com">gbarrerafront@gmail.com</a>
+            <a href="mailto:gbarrerafront@correo.com">
+              gbarrerafront@gmail.com
+            </a>
           </div>
           <div className="footer-item">
             <WhatsAppIcon />
@@ -42,7 +44,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  )
+  );
 };
 
 export default Footer;

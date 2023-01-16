@@ -1,7 +1,7 @@
-import HomePage from './pages/HomePage';
-import CoursesPage from './pages/CoursesPage';
 import AboutMePage from './pages/AboutMePage';
 import ContactPage from './pages/ContactPage';
+import CoursesPage from './pages/CoursesPage';
+import HomePage from './pages/HomePage';
 
 import { Route, Routes } from 'react-router-dom';
 
@@ -20,9 +20,7 @@ const availableRoutes = [
   },
 ];
 
-const NoMatch = () => {
-  return <p>ERROR 404 - Página no encontrada</p>
-};
+const NoMatch = () => <p>ERROR 404 - Página no encontrada</p>;
 
 const routes = () => {
   return (

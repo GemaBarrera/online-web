@@ -1,7 +1,7 @@
+import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { useState, useEffect } from 'react';
-import HamburgerMenu from './HamburgerMenu';
 import DropdownMenu from './DropdownMenu';
+import HamburgerMenu from './HamburgerMenu';
 
 const Header = () => {
   const location = useLocation();

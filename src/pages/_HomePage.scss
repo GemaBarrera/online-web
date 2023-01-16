@@ -1,0 +1,87 @@
+.home-page-wrapper {
+
+  .bold {
+    color: $green;
+  }
+
+  .hero-home {
+    display: flex;
+    max-width: 1400px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    .text-home-wrapper {
+      width: 500px;
+      margin-right: 20px;
+    }
+  
+    .image-home-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      opacity: 0.9;
+
+      .img-wrapper {
+        height: 330px;
+        width: 500px;
+        background-size: cover;
+        background-position: center;
+
+        @media (max-width: 600px) {
+            height: 240px;
+            width: 100%;
+            margin: auto;
+        }
+      }
+
+      .meeting-link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $light-yellow;
+        margin-top: 10px;
+        padding: 10px;
+
+        p {
+          margin: 0;
+        }
+
+        a {
+          text-decoration: none;
+          color: $fontbase;
+          font-size: 20px;
+
+          &:hover {
+            color: $orange;
+          }
+        }
+      }
+    }
+  
+    ul {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+    svg {
+      color: $yellow;
+      font-size: 60px;
+      margin-right: 10px;
+    }
+
+    .banner-title {
+      color: $purple;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+}

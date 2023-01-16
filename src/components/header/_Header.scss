@@ -1,0 +1,52 @@
+@import '../../colors';
+
+.header-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: $purple;
+  height: 80px;
+  font-weight: bold;
+
+  @media (max-width: 600px) {
+    padding: 10px 20px;
+  }
+
+  .titles-wrapper {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .header-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .header-sub-title {
+    font-size: 18px;
+  }
+  
+  .nav-menu-wrapper {
+    margin-left: auto;
+  }
+  
+  .nav-menu-item {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      color: $orange;
+    }
+
+    &.active {
+      color: $orange;
+    }
+
+    @media (max-width: 600px) {
+      margin: 0;
+    }
+  }  
+}
